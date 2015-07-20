@@ -1,7 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTableStorageOperations", "AzureTableStorageOperations\AzureTableStorageOperations.csproj", "{249ADA85-ABA7-4CD6-B935-4BCDA26EABD1}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "AzureCloudService1\AzureCloudService1.ccproj", "{0678902B-1C63-4E21-ADAA-F7A6A4BE391B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWebRole1", "CloudWebRole1\CloudWebRole1.csproj", "{EF033418-5154-4AB9-9FF7-E2B1261CDAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceInMvc", "ResourceInMvc\ResourceInMvc.csproj", "{60D25468-921E-44E0-BBBD-6621AD4F142F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcesInMvc.Resource", "ResourcesInMvc.Resource\ResourcesInMvc.Resource.csproj", "{1ED9252C-C861-45BB-BBCE-27BF5CCC9BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomHeater", "RoomHeater\RoomHeater.csproj", "{D298D4C9-32A8-4B07-B147-215BA0E6ABC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJobTest", "WebJobTest\WebJobTest.csproj", "{9BED8FC3-0686-48E3-AAB5-F2734A179E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +27,30 @@ Global
 		{249ADA85-ABA7-4CD6-B935-4BCDA26EABD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249ADA85-ABA7-4CD6-B935-4BCDA26EABD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249ADA85-ABA7-4CD6-B935-4BCDA26EABD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0678902B-1C63-4E21-ADAA-F7A6A4BE391B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0678902B-1C63-4E21-ADAA-F7A6A4BE391B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0678902B-1C63-4E21-ADAA-F7A6A4BE391B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0678902B-1C63-4E21-ADAA-F7A6A4BE391B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF033418-5154-4AB9-9FF7-E2B1261CDAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF033418-5154-4AB9-9FF7-E2B1261CDAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF033418-5154-4AB9-9FF7-E2B1261CDAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF033418-5154-4AB9-9FF7-E2B1261CDAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D25468-921E-44E0-BBBD-6621AD4F142F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D25468-921E-44E0-BBBD-6621AD4F142F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D25468-921E-44E0-BBBD-6621AD4F142F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D25468-921E-44E0-BBBD-6621AD4F142F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED9252C-C861-45BB-BBCE-27BF5CCC9BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED9252C-C861-45BB-BBCE-27BF5CCC9BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED9252C-C861-45BB-BBCE-27BF5CCC9BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED9252C-C861-45BB-BBCE-27BF5CCC9BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D298D4C9-32A8-4B07-B147-215BA0E6ABC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D298D4C9-32A8-4B07-B147-215BA0E6ABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D298D4C9-32A8-4B07-B147-215BA0E6ABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D298D4C9-32A8-4B07-B147-215BA0E6ABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BED8FC3-0686-48E3-AAB5-F2734A179E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BED8FC3-0686-48E3-AAB5-F2734A179E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BED8FC3-0686-48E3-AAB5-F2734A179E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BED8FC3-0686-48E3-AAB5-F2734A179E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

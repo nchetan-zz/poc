@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/**/bin/
+/**/obj/
+/**/Debug/
+/**/Release/
+/src/packages
+*.suo
+/**/*.DotSettings.user
+/**/*.csproj.user
+/**/*.ccproj.user
+
+# Database project deployment cache file. 
+/**/*.dbmdl
+/src/Microsoft.MVP.Admin.Database/Microsoft.MVP.Admin.Database.sqlproj.user
+*.db
+
+# Visual SlickEdit files
+
+/**/*.vpj
+/**/*.vpw
+/**/*.vtg
+/**/*.vpwhist
