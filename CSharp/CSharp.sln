@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCaching", "MemoryCach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCode", "SharedCode\SharedCode.csproj", "{6B2936FC-4B26-4D38-83C1-E48130379F16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCaching", "RedisCaching\RedisCaching.csproj", "{D6EB9FBB-5CED-49CE-BFA0-EA1B8218CBC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6B2936FC-4B26-4D38-83C1-E48130379F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2936FC-4B26-4D38-83C1-E48130379F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2936FC-4B26-4D38-83C1-E48130379F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EB9FBB-5CED-49CE-BFA0-EA1B8218CBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EB9FBB-5CED-49CE-BFA0-EA1B8218CBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EB9FBB-5CED-49CE-BFA0-EA1B8218CBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EB9FBB-5CED-49CE-BFA0-EA1B8218CBC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
