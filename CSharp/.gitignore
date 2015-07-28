@@ -17,6 +17,9 @@
 /src/Microsoft.MVP.Admin.Database/Microsoft.MVP.Admin.Database.sqlproj.user
 *.db
 
+# IIS application host configuration. This is machine specific and hence should not be checked in.
+/**/applicationhost.config
+
 # Visual SlickEdit files
 
 /**/*.vpj
