@@ -15,23 +15,45 @@ namespace RedisCaching
         {
             try
             {
-                ConnectionMultiplexer connection = ConnectionMultiplexer.Connect("localhost");
-                IDatabase database = connection.GetDatabase();
+                using (var connection = ConnectionMultiplexer.Connect("localhost"))
+                {
+                    var database = connection.GetDatabase();
 
-                _SetAndGetStringCacheValue(database);
-                _AppendToCacheValue(database);
+                    _DataOperations(database);
 
-                _LockingCacheAndAccess(database);
-               
-                _SetAndGetIntCacheValue(database);
-
+                    _Events(connection);
+                }
             }
             catch (Exception ex)
             {
-                ConsoleColor oldForgroundColor = Console.ForegroundColor;
+                var oldForgroundColor = Console.ForegroundColor;
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Error {ex.Message}");
+                Console.ForegroundColor = oldForgroundColor;
             }
+        }
+
+        private static void _Events(ConnectionMultiplexer connection)
+        {
+            _ConfigurationChangeEventHandlerExampler(connection);
+
+        }
+
+        private static void _ConfigurationChangeEventHandlerExampler(ConnectionMultiplexer connection)
+        {
+            connection.ConfigurationChanged += _ConfigurationChangeHandler;
+        }
+
+        private static void _ConfigurationChangeHandler(object sender, EndPointEventArgs e)
+        {
+            Console.WriteLine($"Configuration has changed on endpoint: {e.EndPoint}");
+        }
+
+        private static void _DataOperations(IDatabase database)
+        {
+            _SetAndGetStringCacheValue(database);
+            _AppendToCacheValue(database);
+            _LockingCacheAndAccess(database);
         }
 
         private static void _LockingCacheAndAccess(IDatabase database)
@@ -82,11 +104,6 @@ namespace RedisCaching
             {
                 database.LockRelease(StringCacheKey, token);
             }
-        }
-
-        private static void _SetAndGetIntCacheValue(IDatabase database)
-        {
-            throw new NotImplementedException();
         }
 
         private static void _AppendToCacheValue(IDatabase database)
