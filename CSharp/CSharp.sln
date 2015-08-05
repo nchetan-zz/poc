@@ -29,6 +29,8 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService", "AzureC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorage", "AzureStorage\AzureStorage.csproj", "{C030C08D-A329-4462-97E0-7D02209BA245}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDbDataService", "NorthwindDbDataService\NorthwindDbDataService.csproj", "{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,18 @@ Global
 		{C030C08D-A329-4462-97E0-7D02209BA245}.Release|ARM.Build.0 = Release|Any CPU
 		{C030C08D-A329-4462-97E0-7D02209BA245}.Release|x86.ActiveCfg = Release|Any CPU
 		{C030C08D-A329-4462-97E0-7D02209BA245}.Release|x86.Build.0 = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Debug|x86.Build.0 = Debug|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|ARM.Build.0 = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCFFF910-CD0A-4B6E-B421-297CDED5AC9B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
