@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Kendo UI!</title>
+    <link href="http://kendo.cdn.telerik.com/2014.1.318/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://kendo.cdn.telerik.com/2014.1.318/styles/kendo.default.min.css" rel="stylesheet" />
+    <script src="http://kendo.cdn.telerik.com/2014.1.318/js/jquery.min.js">
+    </script>
+    <script src="http://kendo.cdn.telerik.com/2014.1.318/js/kendo.all.min.js">
+    </script>
+</head>
+<body>
+    <p>
+        Animal: <input class="animal" />
+    </p>
+
+    <p>
+        Animal: <input class="animal" />
+    </p>
+
+    <script>
+    $(function(){
+      $(".animal").kendoAutoComplete({ dataSource: [ "Ant", "Antilope", "Badger", "Beaver", "Bird" ]});
+     });
+    </script>
+</body>
+</html>
