@@ -1,0 +1,17 @@
+#childDiv1 {
+    background-color: lightBlue;
+}
+
+#childDiv2 {
+    background-color: lightGreen;
+}
+
+#childDiv3 {
+    background-color: lightCyan;
+}
+
+#parentDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
