@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GpsLocation</string>
+
+    <string name="lattitude_text">Lattitude: </string>
+    <string name="longitude_text">Longitude: </string>
+    <string name="action_settings">Settings</string>
+</resources>
