@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GpsCoordinates</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="refresh_coords">Refresh Coordinates</string>
+    <string name="lattitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+</resources>
