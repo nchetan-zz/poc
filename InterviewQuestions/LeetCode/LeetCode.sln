@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestGoodBase", "SmallestGoodBase\SmallestGoodBase.csproj", "{C4097517-2960-4DF9-8C66-9B58486D4FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRanges", "FreeRanges\FreeRanges.csproj", "{4385A9A3-2411-4503-9C29-77DF7E281D0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4097517-2960-4DF9-8C66-9B58486D4FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4097517-2960-4DF9-8C66-9B58486D4FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4097517-2960-4DF9-8C66-9B58486D4FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4097517-2960-4DF9-8C66-9B58486D4FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4385A9A3-2411-4503-9C29-77DF7E281D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4385A9A3-2411-4503-9C29-77DF7E281D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4385A9A3-2411-4503-9C29-77DF7E281D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4385A9A3-2411-4503-9C29-77DF7E281D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
