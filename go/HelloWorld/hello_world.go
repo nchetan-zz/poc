@@ -3,7 +3,12 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Hello World!")
+type SomeStructure struct {
+	someValue int
 }
 
+func main() {
+
+	first := SomeStructure{someValue: 100}
+	fmt.Printf("Some Value = %d\n", first.someValue)
+}
