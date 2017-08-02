@@ -2,7 +2,9 @@ Debug/
 bin/
 obj/
 packages/
+.vscode/
 *.suo
 *.ipch
 *.tags
+*.swp
 tags
