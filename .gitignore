@@ -2,7 +2,9 @@ Debug/
 bin/
 obj/
 packages/
+.idea/
 .vscode/
+.DS_Store
 *.suo
 *.ipch
 *.tags
